@@ -1,7 +1,6 @@
 "use strict";
 
 let number = Math.trunc(Math.random() * 20) + 1;
-console.log(number);
 let wins = true;
 
 const displayMessage = function (place, message) {
@@ -17,7 +16,6 @@ document.querySelector(".again").addEventListener("click", function () {
   document.querySelector(".number").style.width = "15rem";
   displayMessage(".score", 20);
   number = Math.trunc(Math.random() * 20) + 1;
-  console.log(number);
 });
 
 //check button
